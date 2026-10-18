@@ -26,3 +26,6 @@ proyecto5_inventario/
 ├── pyproject.toml      # Configuración del proyecto Python gestionado por uv
 ├── uv.lock             # Bloqueo determinista de dependencias
 └── README.md           # Documentación técnica del repositorio
+
+> ℹ️ **Nota sobre la Base de Datos:**  
+> No necesitas crear la base de datos previamente. Al ejecutar la aplicación por primera vez, el sistema creará automáticamente el archivo local `inventario.db` y construirá las tablas necesarias en SQLite.
